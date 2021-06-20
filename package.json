@@ -1,0 +1,25 @@
+{
+  "name": "weather-dashboard-api",
+  "version": "1.0.0",
+  "description": "An api for weather trends dashboard",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seale61/weather-dashboard-api.git"
+  },
+  "author": "Charles Seale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seale61/weather-dashboard-api/issues"
+  },
+  "homepage": "https://github.com/seale61/weather-dashboard-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
