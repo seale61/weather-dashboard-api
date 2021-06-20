@@ -1,4 +1,6 @@
-# weather-dashboard-api
+# weather-dashboard-api  
+## Weather Tracking Tutorial - Part 2  
+This is Part 2 of the Weather Tracking tutorial series using Node, MySQL, and Vue/Vuetify
 ## Installation
 From a terminal command line, clone this repository by entering:   
   
