@@ -3,11 +3,11 @@ module.exports = (route) => {
     const weather = require('./weather-history.js');
 
 
-    route.get('/api', (req, res) => {
+    route.get('/', (req, res) => {
         res.send("You have reached the api root. It's a dark and lonely place.");
     });
     
-    route.get('/api/get-daily/:start/:end/:station', (req, res) => {
+    route.get('/get-daily/:start/:end/:station', (req, res) => {
 
         let data = {
             start:   req.params.start,
@@ -19,7 +19,7 @@ module.exports = (route) => {
 
     });
 
-    route.get('/api/get-hourly/:date/:station', (req, res) => {
+    route.get('/get-hourly/:date/:station', (req, res) => {
 
         let data = {
             date:   req.params.date,
@@ -30,7 +30,7 @@ module.exports = (route) => {
 
     });
 
-    route.get('/api/get-stations', (req, res) => {
+    route.get('/get-stations', (req, res) => {
         weather.getStations(res);
     });
 }
